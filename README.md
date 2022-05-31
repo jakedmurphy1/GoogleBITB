@@ -30,8 +30,6 @@ mkdir /opt/GoogleBITB && mv creds.txt /opt/GoogleBITB/creds.txt
 
 Then visit <i>/GoogleBITB/index.html</i> in your browser and give it a try! Any gathered credentials will be stored in <i>/opt/GoogleBITB/creds.txt</i>
 
-Users will be prompted to close the window and redirected to gmail.com.
-
 ### Getting Creds from a XSS Attack
 
 You can use this repo to steal credentials through a XSS attack. Just set it up and use the following XSS payload:
